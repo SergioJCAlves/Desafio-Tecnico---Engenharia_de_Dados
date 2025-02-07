@@ -86,10 +86,4 @@ O pipeline inclui tratamento de erros para lidar com falhas na API, problemas de
 - As credenciais e chaves sensíveis são armazenadas como variáveis de ambiente e não são expostas no código-fonte.
 - O acesso à interface web do Airflow é protegido por autenticação.
 
-## Próximos Passos e Melhorias Futuras
-
-- Implementar testes unitários e de integração mais abrangentes
-- Otimizar o desempenho do processamento para volumes maiores de dados
-- Expandir as capacidades analíticas da camada Gold
-
-Para quaisquer dúvidas ou sugestões, por favor, abra uma issue neste repositório.
+Para quaisquer dúvidas ou sugestões, por favor, abra uma issue neste repositório ou me ligue.
