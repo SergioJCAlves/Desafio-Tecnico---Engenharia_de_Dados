@@ -2,6 +2,21 @@
 
 Este projeto implementa um pipeline de ETL (Extract, Transform, Load) para processar dados de cervejarias da Open Brewery DB API, seguindo uma arquitetura de medalhão com três camadas: dados brutos, dados tratados particionados por localização e uma camada analítica agregada.
 
+## Arquitetura do projeto
+
+```
+project/
+├── dags/
+│   └── cervejarias_etl_dag.py
+├── scripts/
+│   ├── extract.py
+│   ├── transform.py
+│   └── load.py
+├── Dockerfile
+├── docker-compose.yaml
+└── README.md
+```
+
 ## Escolhas de Design e Compensações
 
 ### Ferramenta de Orquestração
