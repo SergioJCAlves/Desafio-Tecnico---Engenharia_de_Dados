@@ -37,8 +37,8 @@ Este projeto implementa um pipeline de ETL (Extract, Transform, Load) para proce
 2. **Configuração**:
    - Clone o repositório:
      ```
-     git clone [URL_DO_SEU_REPOSITORIO]
-     cd [NOME_DO_DIRETORIO]
+     git clone https://github.com/SergioJCAlves/Desafio-Tecnico---Engenharia_de_Dados/
+     cd Desafio-Tecnico---Engenharia_de_Dados
      ```
    - (Se aplicável) Configure as variáveis de ambiente no arquivo `.env`
 
