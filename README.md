@@ -58,19 +58,30 @@ project/
    - (Se aplicável) Configure as variáveis de ambiente no arquivo `.env`
 
 3. **Inicialização**:
+
+    - Instale as dependências necessárias:
+     ```
+
+     pip install -r requirements.txt
+     
+     ```
+   - Aguarde a finalização da instalação
+
+
    - Inicie os containers Docker:
      ```
      docker-compose up -d
+     
      ```
    - Aguarde alguns minutos para que todos os serviços inicializem completamente
 
-4. **Execução do Pipeline**:
+5. **Execução do Pipeline**:
    - Acesse a interface web do Airflow em `http://localhost:8080`
    - Use as credenciais padrão (geralmente airflow/airflow)
    - Localize o DAG "cervejarias_etl" e ative-o
    - Dispare uma execução manual do DAG ou aguarde o agendamento automático
 
-5. **Verificação dos Resultados**:
+6. **Verificação dos Resultados**:
    - Os dados processados estarão disponíveis nos seguintes caminhos dentro do container:
      - Bronze: `/opt/airflow/data/bronze/breweries_raw.json`
      - Silver: `/opt/airflow/data/silver/breweries.parquet`
@@ -82,7 +93,7 @@ project/
      docker-compose exec airflow-worker cat /opt/airflow/data/gold/breweries_aggregated.csv
      ```
 
-6. **Encerrando a Aplicação**:
+7. **Encerrando a Aplicação**:
    - Para parar e remover os containers:
      ```
      docker-compose down
