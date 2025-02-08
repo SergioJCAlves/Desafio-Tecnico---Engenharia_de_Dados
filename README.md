@@ -60,9 +60,11 @@ project/
 3. **Inicialização**:
 
     - Crie os containers Docker:
-     ```
-     docker-compose build
-     ```
+
+      ```
+      docker-compose build
+      ```
+
    - Aguarde a finalização
 
    - Altere as credenciais docker:
