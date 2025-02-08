@@ -87,7 +87,7 @@ project/
 
 5. **Execução do Pipeline**:
    - Acesse a interface web do Airflow em `http://localhost:8080`
-   - Use as credenciais padrão (geralmente airflow/airflow)
+   - Use as credenciais (admin/admin)
    - Localize o DAG "cervejarias_etl" e ative-o
    - Dispare uma execução manual do DAG ou aguarde o agendamento automático
 
