@@ -50,14 +50,14 @@ project/
    - Docker e Docker Compose instalados em sua máquina
 
 2. **Configuração**:
+
    - Clone o repositório:
      ```
      git clone https://github.com/SergioJCAlves/Desafio-Tecnico---Engenharia_de_Dados/
      cd Desafio-Tecnico---Engenharia_de_Dados
      ```
-   - (Se aplicável) Configure as variáveis de ambiente no arquivo `.env`
 
-3. **Inicialização**:
+4. **Inicialização**:
 
     - Crie os containers Docker:
 
