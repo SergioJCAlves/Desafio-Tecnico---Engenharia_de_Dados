@@ -59,10 +59,19 @@ project/
 
 3. **Inicialização**:
 
-    - Instale as dependências necessárias:
+    - Crie os containers Docker:
      ```
 
-     pip install -r requirements.txt
+     docker-compose build
+     
+     ```
+   - Aguarde a finalização
+
+   - Altere as credenciais docker:
+     ```
+
+     docker-compose run airflow-webserver airflow users create --username admin --firstname 
+     Admin --lastname User --role Admin --email admin@example.com --password admin
      
      ```
    - Aguarde a finalização da instalação
