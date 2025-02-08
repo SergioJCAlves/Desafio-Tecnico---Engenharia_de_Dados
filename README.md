@@ -67,7 +67,7 @@ project/
 
    - Aguarde a finalização
 
-   - Altere as credenciais docker:
+   - Altere as credenciais Docker:
 
       ```
      docker-compose run airflow-webserver airflow users create --username admin --firstname 
