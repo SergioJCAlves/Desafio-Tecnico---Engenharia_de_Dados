@@ -69,10 +69,11 @@ project/
 
 
    - Inicie os containers Docker:
+
      ```
      docker-compose up -d
-     
      ```
+     
    - Aguarde alguns minutos para que todos os serviços inicializem completamente
 
 5. **Execução do Pipeline**:
